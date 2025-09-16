@@ -2,7 +2,7 @@
 
 This project showcases a complete **Data Engineering + Machine Learning pipeline** using BigMart retail sales data. It includes automated data ingestion, MySQL database setup, model training, and deployment via a Streamlit app.
 
-👉 **Live Demo:** 
+👉 **Live Demo:** [https://gradient-boosting-ml-model-by-himanshu.streamlit.app/]
 
 ---
 
@@ -33,5 +33,6 @@ flowchart TD
         C2 --> D1[🌐 Streamlit Web Interface]
         D1 --> D2[📊 Predict Sales]
     end
+
 
 
