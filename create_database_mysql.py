@@ -5,7 +5,7 @@ import pandas as pd
 connection = pymysql.connect(
     host='localhost',
     user='root',
-    password='himanshu@123',   # Change if needed
+    password='',   # Change if needed
     autocommit=True
 )
 
@@ -63,3 +63,4 @@ print("✅ BigMart database created and all tables loaded successfully!")
 # Close connection
 cursor.close()
 connection.close()
+
